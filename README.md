@@ -1,4 +1,22 @@
 # FlyingBear Ghost 5
 This repo contains my personal information and configurations about the FlyingBear Ghost 5 3D Printer.
 
-## Links 
+## Firmware
+
+The firmware the printer ships with contains multiple errorous values as is explained in the [video by drucktipps3D](https://www.youtube.com/watch?v=z7eNHElRNNM). The `robin-nano35+cfg.txt` file in this repository contains the fixes mentioned in the video. 
+
+#### Attention
+
+The `robin-nano35+cfg.txt` file is based on the [v71 T2225](https://drive.google.com/drive/folders/1ZUuk_V8Bdn0Vt0OC19J2wQ0Nd3v5MbL4) version of the firmware and also containes changes to the direction of the z-axis and extruders. Be sure to supervise the printer on first use after an update.
+
+## Filament Cooling
+
+By default, the 5020 fan the printhead comes equipped is wholy inadequat to cool the filament while extruding. Because the airflow is not directed at the nozzle, prints are prone to stringing and failing bridges.
+
+An easy improvement is a [simple fan duct](https://www.thingiverse.com/thing:4597917) which can be clipped on the fan and improves the quality noticeably. However, this is still not enough to successfully print with [certain filaments](https://www.dasfilament.de/filament-refill/pla-1-75-mm/270/pla-filament-1-75-mm-weiss-refill-800-g). Next [a completly new printhead](https://www.thingiverse.com/thing:4615328) was tryed which still does not provide enough cooling.
+
+## Links
+* [drucktipps3D Youtube Video](https://www.youtube.com/watch?v=z7eNHElRNNM)
+* [FlyingBear Firmware on Google Drive](https://drive.google.com/drive/folders/1ZUuk_V8Bdn0Vt0OC19J2wQ0Nd3v5MbL4)
+* [Simple fan duct on Thingiverse](https://www.thingiverse.com/thing:4597917)
+* [Universal Printhead v2 on Thingiverse](https://www.thingiverse.com/thing:4615328)
