@@ -113,11 +113,11 @@
 >HOTEND_OFFSET_Y 	5.00
 #==========================================================
 
->INVERT_X_DIR 	               1	
->INVERT_Y_DIR 	               1
->INVERT_Z_DIR                	0
->INVERT_E0_DIR           	0
->INVERT_E1_DIR           	0
+>INVERT_X_DIR			    0	
+>INVERT_Y_DIR			    0
+>INVERT_Z_DIR			    1
+>INVERT_E0_DIR           	1
+>INVERT_E1_DIR           	1
 
 >DEFAULT_X_STEPS_PER_UNIT	80
 >DEFAULT_Y_STEPS_PER_UNIT	80
@@ -257,7 +257,7 @@
 >DELTA_CALIBRATION_RADIUS	100	#set the radius for the calibration probe points - max 0.8 * DELTA_PRINTABLE_RADIUS 
 
 
-#============================== Wifi ÉèÖÃ =============================
+#============================== Wifi ï¿½ï¿½ï¿½ï¿½ =============================
 >CFG_WIFI_MODE			0
 >CFG_WIFI_AP_NAME
 >CFG_WIFI_KEY_CODE
