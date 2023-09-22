@@ -18,7 +18,7 @@ Upgrading the Z axis and the extruder drivers to TMC2208s can solve this problem
 
 By default, the 5020 fan the printhead comes equipped is wholy inadequat to cool the filament while extruding. Because the airflow is not directed at the nozzle, prints are prone to stringing and failing bridges.
 
-An easy improvement is a [simple fan duct](https://www.thingiverse.com/thing:4597917) which can be clipped on the fan and improves the quality noticeably. However, this is still not enough to successfully print with [certain filaments](https://www.dasfilament.de/filament-refill/pla-1-75-mm/270/pla-filament-1-75-mm-weiss-refill-800-g). Next [a completly new printhead](https://www.thingiverse.com/thing:4615328) was tryed which still does not provide enough cooling.
+An easy improvement is a [simple fan duct](https://www.thingiverse.com/thing:4597917) which can be clipped on the fan and improves the quality noticeably. However, this is still not enough to successfully print with [certain filaments](https://www.dasfilament.de/filament-refill/pla-1-75-mm/270/pla-filament-1-75-mm-weiss-refill-800-g). Next [a completly new printhead](https://www.thingiverse.com/thing:4615328) was tryed.
 
 ## Links
 * [drucktipps3D Youtube Video](https://www.youtube.com/watch?v=z7eNHElRNNM)
